@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html{
+    overflow: hidden;
+    scroll-behavior: smooth;
+}  
+.navigation{
+    list-style: none;
+    padding: 10px;
+    font-size: 34px;
+    font-weight: bold;
+    background-color: rgb(141 150 155);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1vw;
+}
+.navigation::before{
+    background: url(car3.jpg) center;
+     position: absolute;
+    content: "";
+    top: 5vh;
+    left: 0; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    z-index: -1;
+    height:100vh;
+    width: 100vw;
+    opacity: 0.6;
+}  
+h2{
+    text-align:center ;
+    margin: auto;
+    color: black;
+    font-size: 7vh;
+}
+.form{
+    margin:3vh 10vw;
+    font-size: 16px;
+    width:60vw;
+}
+/* .formclass{
+    position:absolute;
+    margin:auto;
+    font-size: 6vh;
+    background:none;
+    margin: 20px;
+
+} */
+.dropdown{
+    width: 60vw;
+    font-size: 27px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: 520;
+    outline: none;
+    background: none;
+    border: 1.9px solid black;
+}
+.form input{
+    padding: 10px;
+    font-size: 27px;
+    margin-bottom:15px;
+    margin:8px;
+    /* margin-right: 50vw; */
+    color: black;
+    outline: none;
+    background:none;
+    border:1.9px solid black; 
+    width:58.5vw;
+    cursor: pointer;
+    
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:black;
+    opacity: 1; /* Firefox */
+  }
+.results p{
+    font-size: 28px;
+    font-weight: bold;
+    /* margin-bottom: 15px; */
+    margin: 24px;
+}
+button{
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+#btn input{
+    font-size: 28px;
+    background: none;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}

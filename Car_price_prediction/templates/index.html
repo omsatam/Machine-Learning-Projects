@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car price predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class = "navigation">
+         Car Price Predictor
+    </div>
+    <h2>Welcome to our app that gives you right price for your car</h2>
+    <div class="form">
+    <form method="POST" class="formclass">
+        <label for="cars"></label>
+        <select id="cars" name ="cars" class = "dropdown" name="cars">
+            <option selected value="">Choose a car</option>
+            <option value="Audi">Audi</option>
+            <option value="BMW">BMW</option>
+            <option value="Fiat">Fiat</option>
+            <option value="Hector">Hector</option>
+            <option value="Honda">Honda</option>
+            <option value="Hyundai">Hyundai</option>
+            <option value="Jaguar">Jaguar</option>
+            <option value="Jeep">Jeep</option>
+            <option value="Mahindra">Mahindra</option>
+            <option value="Maruti">Maruti</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Mini">Mini</option>
+            <option value="Misubishi">Misubishi</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Renault">Renault</option>
+            <option value="Skoda">Skoda</option>
+            <option value="Tata">Tata</option>
+            <option value="Tata Nano">Tata Nano</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Volkswagen">Volkswagen</option>
+        </select>
+        
+        <input type="number" id="Kilometers" name ="Kilometers" placeholder="Enter Kilometers Driven">
+        <select id="owner" class = "dropdown" name="owner">
+            <option selected value="">Select Owner preference</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <br>
+        <select id="transmission" class = "dropdown" name="transmission">
+            <option selected value="">Transmission System</option>
+            <option value="0">Manual</option>
+            <option value="1">Automatic</option>
+        </select>
+        <br>
+        <select id="fuel" class = "dropdown" name="fuel">
+            <option selected value="">Fuel</option>
+            <option value="0">Petrol</option>
+            <option value="1">Diesel</option>
+        </select>
+
+       <input type="submit" value="Get price">
+     
+    </form>
+    </div>
+</body>
+</html>
