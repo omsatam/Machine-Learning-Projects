@@ -1,0 +1,52 @@
+body::before{
+    background: url(plane.jpg) center center;
+    position: absolute;
+   content: "";
+   top: 0;
+   left: 0; 
+   background-size: cover;
+   background-repeat: no-repeat; 
+   background-size: cover;
+   z-index: -1;
+   height:150vh;
+   width: 100vw;
+   opacity: 0.6;
+}
+
+.navbar {
+    background: none;
+}
+
+a {
+    color: none;
+}
+
+a:hover {
+    color: #f0f0f0;
+  }
+.card{
+    background: none;
+    /* width:40vw; */
+}
+/* .card-body{
+    width:40vw;
+    /* margin:10px; 
+} */
+input{
+    background: none;
+}
+option{
+    background: none;
+}
+.dropdown{
+    background: none;
+}
+select{
+    background:none;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background: none;
+    color: black;
+    font-weight:bold;
+}
